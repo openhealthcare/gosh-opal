@@ -8,12 +8,18 @@ list_columns = [
     models.Location,
     models.Demographics,
     models.Treatment,
-    models.Problems
+    models.Problem,
+    models.Test,
+    models.Task,
+    models.Contact
     ]
 
 detail_columns = [
     models.Location,
     models.Demographics,
     models.Treatment,
-    models.Problems
+    models.Problem,
+    models.Test,
+    models.Task,
+    models.Contact
     ]
