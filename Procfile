@@ -1,1 +1,1 @@
-web: cd gosh && gunicorn opal.wsgi
+web: cd gosh && gunicorn gosh.wsgi
