@@ -1,0 +1,6 @@
+[[item.category]]
+<span ng-show="item.discharge_date">(</span>[[item.discharge_date | date:'d/M']]<span ng-show="item.discharge_date">)</span>
+<br />
+[[item.ward]] <br />
+[[item.bed]]<br />
+<a class="screen-only" href="#" ng-click="dischargePatient($parent.$index, $event)">Discharge / Remove</a>

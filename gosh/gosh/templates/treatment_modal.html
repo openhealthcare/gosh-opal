@@ -1,0 +1,59 @@
+<form class="form-horizontal">
+	<div class="control-group">
+		<label class="control-label">Condition</label>
+		<div class="controls">
+			<input type="text" ng-model="editing.condition" bs-typeahead="condition_list">
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label">Provisional?</label>
+		<div class="controls">
+			<input type="checkbox" ng-model="editing.provisional">
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label">Details</label>
+		<div class="controls">
+			<input type="text" ng-model="editing.details">
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label">Date of diagnosis</label>
+		<div class="controls">
+			<input type="text" ng-model="editing.date_of_diagnosis" bs-datepicker>
+		</div>
+	</div>
+
+	<div class="control-group">
+		<label class="control-label">Drug</label>
+		<div class="controls">
+			<input type="text" ng-model="editing.drug" bs-typeahead="antimicrobial_list">
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label">Start date</label>
+		<div class="controls">
+			<input type="text" ng-model="editing.start_date" bs-datepicker>
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label">End date</label>
+		<div class="controls">
+			<input type="text" ng-model="editing.end_date" bs-datepicker>
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label">Dose</label>
+		<div class="controls">
+			<input type="text" ng-model="editing.dose">
+		</div>
+	</div>
+	<div class="control-group">
+		<label class="control-label">Route</label>
+		<div class="controls">
+			<input type="text" ng-model="editing.route" bs-typeahead="antimicrobial_route_list">
+		</div>
+	</div>
+
+
+</form>
